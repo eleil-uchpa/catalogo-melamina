@@ -209,7 +209,7 @@ function App() {
     return (
       <div className="estado-contenedor">
         <div className="spinner"></div>
-        <p className="estado-texto">Cargando catálogo de Melamina Trujillo...</p>
+        <p className="estado-texto">Cargando catálogo de Paula Shop's...</p>
       </div>
     );
   }
@@ -233,9 +233,9 @@ function App() {
     <div className="catalogo-app">
       {/* Header móvil */}
       <header className="catalogo-header">
-        <div className="header-badge">Melamina Trujillo</div>
+        <div className="header-badge">Paula Shop's</div>
         <h1 className="header-titulo">Catálogo de Productos</h1>
-        <p className="header-subtitulo">Roperos, estantes, muebles y tableros de melamina</p>
+        <p className="header-subtitulo">Polos, gorros, buzos y más...</p>
       </header>
 
       {/* Barra de búsqueda móvil */}
@@ -259,7 +259,7 @@ function App() {
           <input
             className="busqueda-input"
             type="text"
-            placeholder="Buscar herramienta, material..."
+            placeholder="Buscar polos, gorros, buzos y más..."
             value={busqueda}
             onChange={(evento) => {
               setBusqueda(evento.target.value);
@@ -443,7 +443,7 @@ function App() {
       )}
 
       <footer className="catalogo-pie">
-        <p>© 2026 Melamina Trujillo - Todos los derechos reservados</p>
+        <p>© 2026 Paula Shop's - Todos los derechos reservados</p>
       </footer>
 
       {/* Modal para ver fotos grandes sin deformación en celular y PC */}
